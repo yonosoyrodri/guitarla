@@ -14,7 +14,7 @@ function App() {
 	const [cart, setCart] = useState(initialCart);
 
 	const MIN_ITEMS = 1;
-  const MAX_ITEMS = 1;
+  const MAX_ITEMS = 5;
   
   useEffect(() => {
     localStorage.setItem('cart', JSON.stringify(cart))
